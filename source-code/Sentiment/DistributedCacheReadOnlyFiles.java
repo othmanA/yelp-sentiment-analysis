@@ -45,7 +45,7 @@ public class DistributedCacheReadOnlyFiles {
 	 * @return
 	 */
 	public boolean contains(String word) {
-		return words.contains(word);
+		return words.contains(word.toLowerCase());
 	}
 
 }
